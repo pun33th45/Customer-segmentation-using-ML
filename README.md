@@ -8,6 +8,22 @@ Annual Income (k$)
 Spending Score (1–100)
 so businesses can target each segment with personalized marketing.
 
+Below are the key visual insights from the dataset, represented using six compact side-by-side figures.
+
+📸 Visual Summary of Findings
+<table> <tr> <td><img src="https://github.com/pun33th45/Customer-segmentation-using-ML/blob/b95e516cea1b2b8df4864a6158ce6ec8cbbee239/screenshots/Boxplot.png" width="200"/></td> <td><img src="https://github.com/pun33th45/Customer-segmentation-using-ML/blob/b95e516cea1b2b8df4864a6158ce6ec8cbbee239/screenshots/Histogram.png" width="200"/></td> <td><img src="https://github.com/pun33th45/Customer-segmentation-using-ML/blob/b95e516cea1b2b8df4864a6158ce6ec8cbbee239/screenshots/elbow%20method.png" width="200"/></td> </tr> <tr> <td><img src="https://github.com/pun33th45/Customer-segmentation-using-ML/blob/b95e516cea1b2b8df4864a6158ce6ec8cbbee239/screenshots/interpretation.png" width="200"/></td> <td><img src="https://github.com/pun33th45/Customer-segmentation-using-ML/blob/b95e516cea1b2b8df4864a6158ce6ec8cbbee239/screenshots/k%20means%20clustering.png" width="200"/></td> <td><img src="https://github.com/pun33th45/Customer-segmentation-using-ML/blob/b95e516cea1b2b8df4864a6158ce6ec8cbbee239/screenshots/piecharts.png" width="200"/></td> </tr> </table>
+🔍 What the Results Reveal
+
+Gender Distribution shows a slightly larger female customer base (56%) compared to male (44%).
+
+Boxplots reflect income variance across clusters—clear separation of low, mid, and high-income groups.
+
+Spending Score vs Annual Income scatter plot reveals distinct clusters of customer behavior.
+
+Elbow Method confirms the optimal number of clusters as k = 5.
+
+Histograms show underlying distribution of age, income, and spending diversity in the dataset.
+
 🧠 Algorithm Used
 
 K-Means Clustering (Unsupervised Learning)
